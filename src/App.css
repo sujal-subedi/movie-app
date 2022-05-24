@@ -36,3 +36,9 @@ body {
   color: white;
   width: auto;
 }
+@media (max-width: 600px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
